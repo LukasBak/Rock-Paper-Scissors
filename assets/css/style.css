@@ -31,3 +31,23 @@ text-align: center;
 min-height: 100px;
 background-color: #3f3f3f;
 }
+
+/* Buttons */
+.btn-rock {
+    font-size: 5.5rem;
+    min-width: 30px;
+    margin: 10px;
+    background-color: lightblue;
+}
+.btn-paper {
+    font-size: 5.5rem;
+    min-width: 30px;
+    margin: 10px;
+    background-color: lightcoral;
+}
+.btn-scissors {
+    font-size: 5.5rem;
+    min-width: 30px;
+    margin: 20px;
+    background-color: lightpink;
+}
