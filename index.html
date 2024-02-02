@@ -16,20 +16,27 @@
 <!-- Buttons-->
 <section>
 <div class="game-area" id="possibleChoices">
-    <button class="btn-rock" id="rock"> <i class="fa-solid fa-hand-back-fist"></i></button>
-    <button class="btn-paper" id="paper"><i class="fa-solid fa-hand"></i></button>
-    <button class="btn-scissors" id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+    <button class="btn-rock" id="rockButton"> <i class="fa-solid fa-hand-back-fist"></i></button>
+    <button class="btn-paper" id="paperButton"><i class="fa-solid fa-hand"></i></button>
+    <button class="btn-scissors" id="scissorsButton"><i class="fa-solid fa-hand-scissors"></i></button>
 </div>
 
 <!-- Computer Choice-->
+<div class="game-area" id="computerChoices">
+    <button class="btn-rock" id="rockButton"> <i class="fa-solid fa-hand-back-fist"></i></button>
+    <button class="btn-paper" id="paperButton"><i class="fa-solid fa-hand"></i></button>
+    <button class="btn-scissors" id="scissorsButton"><i class="fa-solid fa-hand-scissors"></i></button>
+</div>
 
 
 <!--Scores-->
-<div id="userDisplay"><h3>Player</h3></div>
+<h3>Player:0<span id="userScoreDisplay"></span></h3>
 
-<div id="computerDisplay"><h3>Computer:</h3></div>
+<h3>Computer:0<span id="computerScoreDisplay"></span></h3>
 
-<div id=><h3>Tied:</h3>:</div>
+<h3>Tied:0<span id="tiedScoreDisplay"></span></h3>
+
+
 
 <button class="reset">Reset Game</button>
 
@@ -37,5 +44,9 @@
 <footer>
     <h2>Rules:</h2>
 </footer>
+
+<script src="./assets/js/script.js"></script>
+
 </body>
-</html>
+
+</html
