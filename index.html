@@ -16,21 +16,18 @@
 <!-- Buttons-->
 <section class="game-area">
 <div id="possibleChoices">
-    <button class="btn-rock"id="rock" onclick="determineWinner"> <i class="fa-solid fa-hand-back-fist"></i></button>
+    <button class="btn-rock"id="rock"> <i class="fa-solid fa-hand-back-fist"></i></button>
     <button class="btn-paper" id="paper"><i class="fa-solid fa-hand"></i></button>
     <button class="btn-scissors"id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
 </div>
 
-<div id="userDisplay"><h1> Player Chose</h1></div>
-<div id="computerDisplay"><h1>Computer Chose</h1></div>
 
 <!--Scores-->
-<h3>Player:0<span id="userScoreDisplay"></span></h3>
-
-<h3>Computer:0<span id="computerScoreDisplay"></span></h3>
-
-<h3>Tied:0<span id="tiedScoreDisplay"></span></h3>
-
+<div id="scores">
+<h3>Player:<span id="userScoreDisplay">0</span></h3>
+<h3>Computer:<span id="computerScoreDisplay">0</span></h3>
+<h3>Tied:<span id="tiedScoreDisplay">0</span></h3>
+</div>
 
 
 <button class="reset">Reset Game</button>
@@ -38,10 +35,11 @@
 </section>
 <footer>
     <h2>Rules:</h2>
+    <p> Rock wins against Scissors | Scissors wins against Paper | Paper wins against Rock</p>
 </footer>
 
-<script src="././assets/js/script.js"></script>
+
 
 </body>
-
-</html
+<script src="././assets/js/script.js"></script>
+</html>
