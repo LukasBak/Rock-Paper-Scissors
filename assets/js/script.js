@@ -77,3 +77,13 @@ function incrementTiedScore() {
   document.getElementById("tiedScoreDisplay").innerText = ++oldTiedScore;
 }
 
+//** Reset Game function */
+
+const resetGame = document.getElementById("resetGame")
+
+resetGame.addEventListener("click", function(){
+  userScoreDisplay.innerHTML = "0";
+  computerScoreDisplay.innerHTML = "0";
+  tiedScoreDisplay.innerHTML = "0";
+});
+
