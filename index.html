@@ -16,11 +16,13 @@
 <!-- Buttons-->
 <section class="game-area">
 <div id="possibleChoices">
-    <button class="btn-rock"id="rock" id="rockButton"> <i class="fa-solid fa-hand-back-fist"></i></button>
-    <button class="btn-paper" id="paper" id="paperButton"><i class="fa-solid fa-hand"></i></button>
-    <button class="btn-scissors" id="scissors" id="scissorsButton"><i class="fa-solid fa-hand-scissors"></i></button>
+    <button class="btn-rock"id="rock" onclick="determineWinner"> <i class="fa-solid fa-hand-back-fist"></i></button>
+    <button class="btn-paper" id="paper"><i class="fa-solid fa-hand"></i></button>
+    <button class="btn-scissors"id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
 </div>
 
+<div id="userDisplay"><h1> Player Chose</h1></div>
+<div id="computerDisplay"><h1>Computer Chose</h1></div>
 
 <!--Scores-->
 <h3>Player:0<span id="userScoreDisplay"></span></h3>
