@@ -7,7 +7,7 @@ Rules of the are quite simple. Rock beats scissors, scissors beat paper and pape
 
 View Deployed Site Here! <https://lukasbak.github.io/Rock-Paper-Scissors/>
 
-![Responsive Mockup] (documentation/support-images/am-i-responsive.png)
+![Responsive Mockup](documentation/support-images/am-i-responsive.png)
 
 ## User Experience (UX)
 
