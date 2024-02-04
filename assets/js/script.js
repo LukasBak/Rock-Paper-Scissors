@@ -1,7 +1,6 @@
 // Game variables //
 
 const possibleChoices = ["rock", "paper", "scissors"];
-const userDisplay = document.getElementById("userDisplay");
 const userChoice = document.getElementById("userChoice");
 
 // Event listeners //
