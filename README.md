@@ -5,11 +5,11 @@ The game is endless with a prospect of resetting the game.
 
 Rules of the are quite simple. Rock beats scissors, scissors beat paper and paper beats rock. If user and computer uses same hand e.g rock versus rock game will be tied.
 
-[View Deployed Site Here!] <https://lukasbak.github.io/Rock-Paper-Scissors/>
+View Deployed Site Here! <https://lukasbak.github.io/Rock-Paper-Scissors/>
 
-![Responsive Mockup] (assets/documentation/am-i-responsive.png)
+![Responsive Mockup] (documentation/support-images/am-i-responsive.png)
 
-## User Expenrience (UX)
+## User Experience (UX)
 
 - ### User Stories
 
