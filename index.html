@@ -6,36 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Rock,Paper,Scissors">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a7d740db08.js" crossorigin="anonymous"></script>
     <title>Rock Paper Scissors </title>
 </head>
 <body>
 <header>
-    <h1> Rock, Paper, Scissors </h1>
+    <h1> Rock, Paper, Scissors! </h1>
 </header>
 <!-- Buttons-->
 <section class="game-area">
 <div id="possibleChoices">
-    <button class="btn-rock"id="rock"> <i class="fa-solid fa-hand-back-fist"></i></button>
-    <button class="btn-paper" id="paper"><i class="fa-solid fa-hand"></i></button>
-    <button class="btn-scissors"id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+    <button aria-label="rock button" class="btn-rock"id="rock"> <i class="fa-solid fa-hand-back-fist"></i></button>
+    <button  aria-label="paper button" class="btn-paper" id="paper"><i class="fa-solid fa-hand"></i></button>
+    <button aria-label="scissors button" class="btn-scissors"id="scissors"><i class="fa-solid fa-hand-scissors"></i></button>
 </div>
 
 
 <!--Scores-->
 <div id="scores">
-<h3>Player:<span id="userScoreDisplay">0</span></h3>
-<h3>Computer:<span id="computerScoreDisplay">0</span></h3>
-<h3>Tied:<span id="tiedScoreDisplay">0</span></h3>
+<h2 >Player:<span id="userScoreDisplay">0</span></h2>
+<h2>Computer:<span id="computerScoreDisplay">0</span></h2>
+<h2>Tied:<span id="tiedScoreDisplay">0</span></h2>
 </div>
 
 
-<button class="reset" id="resetGame">Reset Game</button>
+<button aria-label="reset button" class="reset" id="resetGame">Reset Game</button>
 
 </section>
 <footer>
-    <h2>Rules:</h2>
+    <div>
+    <h3>Rules:</h3>
     <p> Rock wins against Scissors | Scissors wins against Paper | Paper wins against Rock</p>
+</div>
 </footer>
 
 

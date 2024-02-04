@@ -5,7 +5,7 @@
 }
 /* Body */
 body {
-    background-color: silver;
+    background-color: #D8d8d8;
     font-family: sans-serif;
     margin: 0;
     display: flex;
@@ -13,15 +13,65 @@ body {
     align-items: center;
     text-align: center;
 }
+/* Game area */
+.game-area {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    height: 60vh;
+    max-width: 900px;
+    max-height: 720px;
+    padding: 4%;
+
+}
  
-/*Header and Footer */
+/*Header */
 
 header {
     top: 0;
     width: 100%;
-    background-color: #3f3f3f;
+    background-color: #D8d8d8;
     text-align: center;
+    height: 10vh;
 }
+
+/* Styling of H1/2/3 and p elements */
+h1 {
+color: black;
+font-family: 'Protest Strike', sans-serif;
+padding-top: 20px;
+letter-spacing: 2px;
+}
+
+h2 { 
+    color: black;
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.9rem;
+}
+
+div > h3, p {
+    color: white;
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Score display colour*/
+#userScoreDisplay{
+    color: blue;
+}
+
+#computerScoreDisplay{
+    color: red;
+}
+
+#tiedScoreDisplay{
+    color: green
+}
+
+/* Footer*/
 
 footer {
 position: absolute;
@@ -30,7 +80,7 @@ width: 100%;
 box-sizing: border-box;
 text-align: center;
 min-height: 100px;
-background-color: #3f3f3f;
+background-color: black;
 }
 
 /* Buttons */
@@ -39,16 +89,47 @@ background-color: #3f3f3f;
     min-width: 30px;
     margin: 10px;
     background-color: lightblue;
+    padding: 3px;
+    cursor: pointer;
 }
+
+.btn-rock:hover{
+    background-color: lightgreen;
+}
+
 .btn-paper {
     font-size: 5.5rem;
     min-width: 30px;
     margin: 10px;
     background-color: lightcoral;
+    padding: 3px;
+    cursor: pointer;
 }
+.btn-paper:hover{
+background-color: lightgreen;
+}
+
 .btn-scissors {
     font-size: 5.5rem;
     min-width: 30px;
     margin: 20px;
     background-color: lightpink;
+    padding: 3px;
+    cursor: pointer;
+}
+.btn-scissors:hover{
+    background-color: lightgreen;
+}
+
+.reset {
+    font-size: 1rem;
+    min-width: 20px;
+    margin: 10px;
+    background-color: lightcyan;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.reset:hover {
+background-color: lightgreen;
 }
